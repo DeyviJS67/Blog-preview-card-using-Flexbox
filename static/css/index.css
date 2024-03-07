@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 1em 0;
+}
+
+.card {
+  overflow: hidden;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 375px;
+  width: 100%;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border: solid 2px hsl(0, 0%, 50%);
+  box-shadow: 0.5rem 0.5rem 0px 0px hsl(0, 0%, 7%);
+}
+.card__content {
+  display: grid;
+  gap: 1.2em;
+}
+.card__illustration {
+  width: 100%;
+  display: block;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+}
+
+.card:hover {
+  transition: 500ms;
+  box-shadow: 1.2rem 1.2rem 0px 0px #000000;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+}
+
+.description {
+  font-family: "Figtree", sans-serif;
+}
+.description__learning {
+  cursor: pointer;
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  padding: 0.5rem 1.2rem;
+  font-weight: 800;
+  border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+}
+.description__learning:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 50%);
+  box-shadow: 0.5rem 0.5rem 0 hsl(0, 0%, 7%);
+}
+.description__published {
+  font-weight: 500;
+  margin: 1em 0;
+}
+.description__btn a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6em;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+}
+.description__btn a:hover {
+  color: hsl(47, 88%, 63%);
+}
+.description__copy {
+  line-height: 1.7;
+  margin-top: 0.5em;
+  color: hsl(0, 0%, 50%);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.profile__avatar {
+  width: 34px;
+  height: 34px;
+  display: block;
+}
+.profile__avatar:hover {
+  box-shadow: 0px 0.1em 0px 0.1em #000000;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.profile__name {
+  color: hsl(0, 0%, 7%);
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+}
+.profile__name:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+    padding: 0 2em;
+  }
+  .card {
+    max-width: 355px;
+    width: 100%;
+  }
+  .card:hover {
+    box-shadow: 0.9rem 0.9rem 0px 0px #000000;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

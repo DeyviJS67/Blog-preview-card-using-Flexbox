@@ -1,0 +1,51 @@
+.description{
+    font-family: "Figtree", sans-serif;
+    &__learning{
+        cursor: pointer;
+        display: inline-block;
+        background-color: $Yellow;
+        padding: 0.5rem 1.2rem;
+        font-weight: 800;
+        border-radius: .3em;
+        -webkit-border-radius: .3em;
+        -moz-border-radius: .3em;
+        -ms-border-radius: .3em;
+        -o-border-radius: .3em;
+        font-size: .9em;
+        letter-spacing: .5px;
+        transition: all 500ms;
+        -webkit-transition: all 500ms;
+        -moz-transition: all 500ms;
+        -ms-transition: all 500ms;
+        -o-transition: all 500ms;
+}
+    &__learning:hover{
+        color:$White;
+        background-color: $Grey;
+        box-shadow: 0.5rem 0.5rem 0 $Black;
+    }
+    &__published{
+        font-weight: 500;
+       margin: 1em 0;
+    }
+    &__btn a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.6em;
+        font-weight: 800;
+        color: $Black;
+        transition: all 500ms;
+        -webkit-transition: all 500ms;
+        -moz-transition: all 500ms;
+        -ms-transition: all 500ms;
+        -o-transition: all 500ms;
+}
+&__btn a:hover{
+    color: $Yellow;
+}
+&__copy{
+    line-height: 1.7;
+    margin-top: .5em;
+    color: $Grey;
+}
+}

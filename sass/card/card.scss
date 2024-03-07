@@ -1,0 +1,36 @@
+.card{
+    overflow: hidden;
+    background-color: $White;
+    max-width: 375px;
+    width: 100%;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    border: solid 2px $Grey;
+    box-shadow: 0.5rem 0.5rem 0px 0px $Black;
+
+    &__content{
+        display: grid;
+        gap: 1.2em;
+    }
+
+    &__illustration{
+        width: 100%;
+        display: block;
+        border-radius: 1em;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+    }
+}
+.card:hover{
+    transition:  500ms;
+    box-shadow: 1.2rem 1.2rem 0px 0px #000000;
+    -webkit-transition:  500ms;
+    -moz-transition:  500ms;
+    -ms-transition:  500ms;
+    -o-transition:  500ms;
+}

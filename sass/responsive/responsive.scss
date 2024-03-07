@@ -1,0 +1,15 @@
+
+//Responsive
+@media (max-width:375px){
+    body{
+        font-size: 14px;
+        padding: 0 2em;
+    }
+    .card{
+        max-width: 355px;
+        width: 100%;
+    }
+    .card:hover{
+        box-shadow: .9rem .9rem 0px 0px #000000;
+    }
+}
